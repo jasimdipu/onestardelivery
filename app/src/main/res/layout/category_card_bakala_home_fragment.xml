@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/category_card_view_home_fragment"
+    android:layout_width="100dp"
+    android:layout_height="105dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cat_card_bakala"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/thumbnailImage_home_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/cat" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/title_category_home_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksandmedium"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Chocolet"
+            android:textSize="13sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

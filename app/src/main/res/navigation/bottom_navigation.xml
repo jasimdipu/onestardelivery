@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/home_fragment"
+    android:id="@+id/bottom_navigation">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:label="Home"
+        android:name="com.example.onestardelivery.View.UI.BakalaCategory.HomeFrag.BakalaHomeFragment"
+        tools:layout="@layout/fragment_bakala_home"/>
+
+<!--    <fragment-->
+<!--        android:id="@+id/search_fragment"-->
+<!--        android:label="Search"-->
+<!--        android:name="com.example.idlbd.View.ui.search.SearchFragment"-->
+<!--        tools:layout="@layout/fragment_search"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/mycourses_fragment"-->
+<!--        android:label="My Courses"-->
+<!--        android:name="com.example.idlbd.View.ui.my_courses.MyCoursesFragment"-->
+<!--        tools:layout="@layout/fragment_my_courses"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/message_fragment"-->
+<!--        android:label="Messages"-->
+<!--        android:name="com.example.idlbd.View.ui.messages.MessagesFragment"-->
+<!--        tools:layout="@layout/fragment_messages"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/account_fragment"-->
+<!--        android:label="Account"-->
+<!--        android:name="com.example.idlbd.View.ui.user_account.UserAccountFragment"-->
+<!--        tools:layout="@layout/fragment_user_account"/>-->
+
+
+</navigation>
